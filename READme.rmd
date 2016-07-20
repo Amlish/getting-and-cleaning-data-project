@@ -1,0 +1,18 @@
+
+# Getting and cleaning data course project
+
+This project is part of getting and cleaning data Course on coursera.The goal is to prepare tidy data set that can be used for later analysis.
+
+Procesures followed in this project are as follows
+
+
+1.Data set is downloaded and then unziped.The data used can be found on this link https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+ 
+2.Then the training and test data sent are merged to create one data set. 
+ 
+3.Only the measurements on the mean and standard deviation for each measurement are extracted 
+
+4.Descriptive activity names are used to name the activities in the data set and labels the data set with descriptive variable names.
+
+5.Finally an independent tidy data set with the average of each variable for each activity and each subject is created.
+
