@@ -1,0 +1,78 @@
+
+# Codebook
+
+The codebook describes the variables used in the run_analysis.rmd .
+
+
+## General Description of Data set 
+
+The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals prefix 't' to denote time. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
+
+Subsequently, the body linear acceleration and angular velocity were derived in time to obtain Jerk signals (tBodyAccJerk-XYZ and tBodyGyroJerk-XYZ). Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm (tBodyAccMag, tGravityAccMag, tBodyAccJerkMag, tBodyGyroMag, tBodyGyroJerkMag). 
+
+Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing fBodyAcc-XYZ, fBodyAccJerk-XYZ, fBodyGyro-XYZ, fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag. (Note the 'f' to indicate frequency domain signals).
+
+
+## Description of files and Abbreviations of Measurements
+
+
+*"test/X_test.txt" :Is the test set
+ 
+*"test/y_test.txt": Is the test label
+
+*"train/subject_train.txt"
+
+*"test/subject_test.txt"                       
+
+*"train/X_train.txt" 
+
+*"train/y_train.txt" : the training labels
+
+*"activity_labels.txt": It links the activity name with their labels
+
+*"features.txt" :gives the list of all features
+
+
+*mean(): Mean value
+
+*std(): Standard deviation
+
+
+## Prefix
+
+*t : time
+
+*Acc: Accelerometer
+
+* Gyro:Gyroscope
+
+*f:frequency
+
+*Mag : Magnitude
+
+*BodyBody: Body
+
+
+## The Vairables included in the dataset 
+
+tBodyAcc-mean()-X        
+
+tBodyAcc-mean()-Y 
+
+tBodyAcc-mean()-Z
+
+tBodyAcc-std()-X 
+
+tBodyAcc-std()-Y 
+
+tBodyAcc-std()-Z
+
+tBodyAcc-mean()-X"          
+
+"tBodyAcc-mean()-Y"   
+
+## Activities Performed 
+ The following six activities were performed by each person.
+ 
+ WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING 
+
